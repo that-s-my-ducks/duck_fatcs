@@ -1,0 +1,19 @@
+{
+  "name": "duck_fatcs",
+  "version": "1.0.0",
+  "description": "a website for viewing random duck facts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/that-s-my-ducks/duck_fatcs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/that-s-my-ducks/duck_fatcs/issues"
+  },
+  "homepage": "https://github.com/that-s-my-ducks/duck_fatcs#readme"
+}
