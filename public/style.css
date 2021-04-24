@@ -1,13 +1,36 @@
 body {
     background-color: lightblue;
-  }
-  
-  h1 {
+}
+
+h1 {
     color: white;
     text-align: center;
-  }
-  
-  p {
+}
+
+p {
     font-family: verdana;
     font-size: 20px;
-  }
+}
+
+.duck-pic {
+    height: 250px;
+    width: auto;
+}
+
+.left-pic {
+    transform: rotate(20deg);
+}
+
+.right-pic {
+    transform: rotate(-20deg);
+}
+
+.facts-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 10vw;
+}
+
