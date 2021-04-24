@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/that-s-my-ducks/duck_fatcs/issues"
   },
-  "homepage": "https://github.com/that-s-my-ducks/duck_fatcs#readme"
+  "homepage": "https://github.com/that-s-my-ducks/duck_fatcs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
