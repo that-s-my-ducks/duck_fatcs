@@ -12,13 +12,13 @@ const factArray = [
   'Ducks are covered in hydrophobic feathers.',
   'Ducks are birds.',
   'A baby duck is called a duckling.',
-  'Some ducks are very colorful.'
-]
+  'Some ducks are very colorful.',
+];
 
 function onClick() {
   console.log('tehe');
-  i = Math.floor(Math.random() * factArray.length)
-  document.getElementsByClassName('duck-fact')[0].innerText = factArray[i]
+  const i = Math.floor(Math.random() * factArray.length);
+  document.getElementsByClassName('duck-fact')[0].innerText = factArray[i];
 }
 
 factButton.addEventListener('click', onClick);
